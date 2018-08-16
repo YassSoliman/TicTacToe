@@ -1,0 +1,57 @@
+* {
+    color: #ccddff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #3b4f61;
+}
+
+h1 {
+    padding: 20px 0;
+    margin: 0;
+    background: steelblue;
+}
+
+#menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stripe {
+    background: #346288;
+    height: 30px;
+}
+
+#stripe button {
+    border: none;
+    height: 100%;
+    background: steelblue;
+}
+
+#result {
+    width: 15%;
+    display: inline-block;
+}
+
+#TicTacToe {
+   height: 500px;
+   width: 500px;
+   margin: 0 auto;
+   font-size: 0;
+   margin-top: 30px;
+}
+
+#TicTacToe input[type="button"] {
+   height: 33.333%;
+   width: 33.333%;
+   border: 6px solid #3b4f61;
+   background: #536c82;
+   border-radius: 10%;
+}
