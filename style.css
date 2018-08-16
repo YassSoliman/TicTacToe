@@ -64,6 +64,7 @@ h1 {
    height: 33.333%;
    width: 33.333%;
    border: 6px solid #3b4f61;
+   font-size: 120px;
    background: #536c82;
    border-radius: 10%;
    transition: all 0.3s;
