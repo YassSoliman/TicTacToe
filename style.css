@@ -4,6 +4,11 @@
     text-transform: uppercase;
 }
 
+button {
+    outline: none;
+    cursor: pointer;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -32,6 +37,13 @@ h1 {
 #stripe button {
     border: none;
     height: 100%;
+    background: #346288;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+#stripe button:hover {
     background: steelblue;
 }
 
@@ -48,10 +60,17 @@ h1 {
    margin-top: 30px;
 }
 
-#TicTacToe input[type="button"] {
+#TicTacToe button {
    height: 33.333%;
    width: 33.333%;
    border: 6px solid #3b4f61;
    background: #536c82;
    border-radius: 10%;
+   transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+   -moz-transition: all 0.3s;
+}
+
+#TicTacToe button:hover {
+   background-color: #61788c;
 }
