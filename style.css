@@ -50,6 +50,9 @@ h1 {
 #result {
     width: 15%;
     display: inline-block;
+    font-weight: 900;
+    font-size: 20px;
+    color: #00ff2f;
 }
 
 #TicTacToe {
